@@ -46,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.className}`}>
+    <html lang="en" className={`dark ${inter.className}`}>
       <Head>
         <meta property="og:title" content="Generated"/>
         <meta property="og:description" content="Generated is a generator web application created by Fun117. This app provides functionality to generate something."/>
