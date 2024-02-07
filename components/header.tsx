@@ -41,19 +41,19 @@ export default function Header({ comp_lang }: HeaderProps) {
         if (header_element) {
             const y = window.scrollY;
             if (y <= 80) {
-                header_element.classList.remove(`fadeOutUp`);
+                header_element.classList.remove(`animated-slideOut-up-[opacity-0]`);
                 header_element.classList.add(`relative`);
                 header_element.classList.remove(`fixed`);
             } else {
                 if (y >= header_scroll_block_y) {
                     header_element.classList.add(`fixed`);
-                    header_element.classList.remove(`fadeOutUp`);
-                    header_element.classList.add(`fadeDown`);
+                    header_element.classList.remove(`animated-slideOut-up-[opacity-0]`);
+                    header_element.classList.add(`animated-slideIn-down`);
                     header_element.classList.remove(`relative`);
                 } else {
-                    if (header_element.className.search(`fadeDown`)) {
-                        header_element.classList.add(`fadeOutUp`);
-                        header_element.classList.remove(`fadeDown`);
+                    if (header_element.className.search(`animated-slideIn-down`)) {
+                        header_element.classList.add(`animated-slideOut-up-[opacity-0]`);
+                        header_element.classList.remove(`animated-slideIn-down`);
                     }
                 }
             }

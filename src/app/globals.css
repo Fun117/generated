@@ -86,8 +86,6 @@
     opacity: 1;
   }
 }
-
-
 .animated-fade-in {
   animation: fadeIn ease-in-out 0.5s;
 }
@@ -117,7 +115,6 @@
     opacity: 1;
   }
 }
-
 .animated-slideIn-up {
   animation: slideInUp ease-in-out 0.5s;
 }
@@ -144,7 +141,6 @@
     opacity: 1;
   }
 }
-
 .animated-slideIn-down {
   animation: slideInDown ease-in-out 0.5s;
 }
@@ -159,6 +155,35 @@
 }
 .animated-slideIn-down-\[2\.0s\] {
   animation: slideInDown ease-in-out 2.0s;
+}
+
+@keyframes slideOutUp {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+}
+.animated-slideOut-up-\[opacity-0\] {
+  animation: slideOutUp ease-in-out 0.5s;
+}
+.animated-slideOut-up {
+  animation: slideOutUp ease-in-out 0.5s;
+}
+.animated-slideOut-up-\[0\.5s\] {
+  animation: slideOutUp ease-in-out 0.5s;
+}
+.animated-slideOut-up-\[1\.0s\] {
+  animation: slideOutUp ease-in-out 1.0s;
+}
+.animated-slideOut-up-\[1\.5s\] {
+  animation: slideOutUp ease-in-out 1.5s;
+}
+.animated-slideOut-up-\[2\.0s\] {
+  animation: slideOutUp ease-in-out 2.0s;
 }
 
 /* checkbox css */

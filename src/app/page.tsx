@@ -237,7 +237,7 @@ export default function Home() {
             <div className="w-full border-[2px] border-zinc-600 rounded-lg p-4">
               <div className="mx-auto w-full max-w-[1240px] undefined">
                 <div className="flex flex-col items-center w-full m-auto gap-4">
-                  <h1 className="text-center font-bold">Generation count</h1>
+                  <h1 className="text-center font-bold">Password Creation Tally</h1>
                   <div className="flex flex-col lg:flex-row gap-4 lg:gap-0 items-center w-full">
                     <div className="bg-none text-white text-3xl p-3 min-w-[100px] text-center items-center rounded-full w-full overflow-scroll">
                       {isLoadGasID_hwAU812h ? (
