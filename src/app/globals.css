@@ -169,6 +169,7 @@
 }
 .animated-slideOut-up-\[opacity-0\] {
   animation: slideOutUp ease-in-out 0.5s;
+  opacity: 0;
 }
 .animated-slideOut-up {
   animation: slideOutUp ease-in-out 0.5s;
