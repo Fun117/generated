@@ -15,6 +15,8 @@ export const metadata: Metadata = {
   title: "Generated",
   description: "Generated is a generator web application created by Fun117. This app provides functionality to generate something.",
 
+  manifest: "/webmanifest.json",
+
   appleWebApp: { capable: true, title: "Generated", statusBarStyle: "black-translucent" },
   verification: { "me": "https://github.com/Fun117" },
   publisher: "Vercel",

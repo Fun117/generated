@@ -1,0 +1,26 @@
+{
+  "name":"Generated",
+  "short_name":"Generated",
+  "description":"Generated is a generator web application created by Fun117. This app provides functionality to generate something.",
+  "start_url":"/",
+  "display_override": [
+    "window-control-overlay", 
+    "minimal-ui"
+  ],
+  "display":"standalone",
+  "theme_color": "#18181b",
+  "background_color":"#18181b",
+  "icons": [
+    {
+      "src": "/assets/brand/android-chrome-192x192@bg-none.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/brand/android-chrome-512x512@bg-none.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "related_application":""
+}
